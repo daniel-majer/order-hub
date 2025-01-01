@@ -4,12 +4,10 @@ import { Header } from './Header'
 
 export const AppLayout = () => {
   return (
-    <div>
-      <p>AppLayout</p>
-
+    <div className="grid h-screen grid-cols-[300px_1fr] grid-rows-[auto_1fr]">
       <Header />
       <Sidebar />
-      <main>
+      <main className='bg-slate-700'>
         <Outlet />
       </main>
     </div>
