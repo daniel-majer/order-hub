@@ -4,7 +4,7 @@ import { Header } from './Header'
 
 export const AppLayout = () => {
   return (
-    <div className="grid h-screen grid-cols-[100px_1fr] grid-rows-[auto_1fr] sm:grid-cols-[300px_1fr]">
+    <div className="grid h-screen grid-cols-[50px_1fr] grid-rows-[auto_1fr] md:grid-cols-[260px_1fr]">
       <Header />
       <Sidebar />
       <main className="bg-slate-700">

@@ -3,7 +3,7 @@ import { Nav } from './Nav'
 
 const Sidebar = () => {
   return (
-    <aside className="col-span-1 row-span-full bg-slate-300 px-5 py-10">
+    <aside className="col-span-1 row-span-full bg-white py-10 md:px-5">
       <Logo />
       <Nav />
     </aside>
