@@ -11,7 +11,7 @@ import { StyledNavLink } from './StyledNavLink'
 
 const liStyles = 'font-medium text-xl '
 const iconStyles =
-  'stroke-2 text-slate-400  transition-all duration-300 group-hover:text-purple-500 group-[.text-slate-800]:stroke-2 group-[.text-slate-800]:text-purple-600'
+  'stroke-2 text-slate-400 transition-all duration-300 group-hover:text-indigo-500 group-[.text-slate-800]:stroke-2 group-[.text-slate-800]:text-indigo-600'
 
 export const Nav = () => {
   return (
